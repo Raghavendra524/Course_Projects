@@ -3,6 +3,7 @@ The problem of determining the location and orientation of straight lines in ima
 The Hough transform, which was introduced to detect parameterized shapes (i.e. which can be represented in mathematical equations) in binary images, maps each image point to all points in the parameter space which could have possibly produced the image point. Thus, each image point votes for the shape parameters which could have produced it. The points in the parameter space accumulate the greatest number of votes, which appear as peaks, are the most likely to have produced the shapes in the true image.
 Line detectors were used to find roads and tracks in aerial images and mask-wafer alignment in semiconductor manufacture.
 Schematic block diagram:
- 
+ ![Capture_dip](https://github.com/Raghavendra524/Course_Projects/assets/83229571/b235b5b7-a0f4-4827-9a89-1192d200f110)
+
 #Reference paper of IEEE :
 DOI: https://doi.org/10.1109/ICCSP.2014.6949962
